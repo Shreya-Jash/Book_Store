@@ -47,7 +47,7 @@ const CreateBooks = () => {
             type='text'
             value={title}
             onChange={(e) => setTitle(e.target.value)}
-            className='border-2 border-gray-500 px-4 py-2 w-full'
+            className='border-2 border-gray-500 dark:text-black px-4 py-2 w-full'
           />
         </div>
         <div className='my-4'>
@@ -56,7 +56,7 @@ const CreateBooks = () => {
             type='text'
             value={author}
             onChange={(e) => setAuthor(e.target.value)}
-            className='border-2 border-gray-500 px-4 py-2  w-full '
+            className='border-2 border-gray-500 px-4 py-2 dark:text-black w-full '
           />
         </div>
         <div className='my-4'>
@@ -65,7 +65,7 @@ const CreateBooks = () => {
             type='number'
             value={publishYear}
             onChange={(e) => setPublishYear(e.target.value)}
-            className='border-2 border-gray-500 px-4 py-2  w-full '
+            className='border-2 border-gray-500 px-4 py-2 dark:text-black  w-full '
           />
         </div>
         <button className='p-2 bg-sky-300 m-8' onClick={handleSaveBook}>
